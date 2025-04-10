@@ -1,0 +1,33 @@
+{
+    "sales_data": {
+        "table_name": "sales_data",
+        "columns": {
+            "invoice_no": "invoice_number",
+            "customer_id": "customer_key",
+            "category": "product_category",
+            "quantity": "quantity_sold",
+            "invoice date": "invoice_date",
+            "price": "total_price",
+            "shopping_mall": "mall_name"
+        }
+    },
+    "customer_data": {
+        "table_name": "customer_data",
+        "columns": {
+            "customer_id": "customer_key",
+            "gender": "gender",
+            "age": "customer_age",
+            "payment_method": "payment_type"
+        }
+    },
+    "shopping_mall_data": {
+        "table_name": "shopping_mall_data",
+        "columns": {
+            "shopping_mall": "mall_name",
+            "construction_year": "built_year",
+            "area (sqm)": "total_area_sqm",
+            "location": "city_location",
+            "store_count": "total_stores"
+        }
+    }
+}
